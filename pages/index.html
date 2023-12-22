@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badan Eksekutif Mahasiswa Maranatha</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style/index.css">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center">
+        <div class="card">
+            <h3 class="card-header">Form Pendaftaran Kepengurusan BEM</h3>
+            <div class="card-body">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap:</label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Input Nama" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="nrp">NRP:</label>
+                        <input type="text" class="form-control" name="nrp" id="nrp" placeholder="Input NRP" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Aktif:</label>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Input Email"
+                            required>
+                        <small id="emailHelp" class="form-text text-muted">Untuk informasi penerimaan</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="telp">Nomor Telepon:</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">+62</span>
+                            </div>
+                            <input type="text" class="form-control" name="telp" id="telp"
+                                placeholder="Input Nomor Telepon" minlength="10" maxlength="15">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="fakultas">Fakultas:</label>
+                        <select name="fakultas" id="fakultas" class="form-select" required>
+                            <option selected disabled>Pilihan Fakultas</option>
+                            <option value="Teknologi Informasi">Teknologi Informasi</option>
+                            <option value="Bisnis">Bisnis</option>
+                            <option value="Teknik">Teknik</option>
+                            <option value="Bahasa & Budaya">Bahasa & Budaya</option>
+                            <option value="Seni Rupa & Desain">Seni Rupa & Desain</option>
+                            <option value="Kedokteran">Kedokteran</option>
+                            <option value="Kedokteran Gigi">Kedokteran Gigi</option>
+                            <option value="Hukum">Hukum</option>
+                            <option value="Psikologi">Psikologi</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="dept1">Pilihan Departemen 1:</label>
+                        <select name="dept1" id="dept1" class="form-select" required>
+                            <option selected disabled>Pilihan Departemen</option>
+                            <option value="Departemen Sekretariat">Departemen Sekretariat</option>
+                            <option value="Departemen Keuangan, Sarana, dan Prasarana">Departemen Keuangan, Sarana, dan
+                                Prasarana</option>
+                            <option value="Departemen Informasi & Komunikasi">Departemen Informasi & Komunikasi</option>
+                            <option value="Departemen Pengabdian Masyarakat">Departemen Pengabdian Masyarakat</option>
+                            <option value="Departemen Keilmuan & Pengembangan">Departemen Keilmuan & Pengembangan
+                            </option>
+                            <option value="Departemen Sosial, Politik, dan Hukum">Departemen Sosial, Politik, dan Hukum
+                            </option>
+                            <option value="Departemen Pengembangan Sumber Daya Organisasi">Departemen Pengembangan
+                                Sumber Daya Organisasi</option>
+                            <option value="Departemen Minat & Bakat">Departemen Minat & Bakat</option>
+                            <option value="Departemen Permodalan">Departemen Permodalan</option>
+                            <option value="Departemen Hubungan Luar Universitas">Departemen Hubungan Luar Universitas
+                            </option>
+                        </select>
+                        <label for="alasan1">Alasan Memilih Departemen Tersebut:</label>
+                        <textarea class="form-control" name="alasan1" id="alasan1" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="dept2">Pilihan Departemen 2:</label>
+                        <select name="dept2" id="dept2" class="form-select" required>
+                            <option selected disabled>Pilihan Departemen</option>
+                            <option value="Departemen Sekretariat">Departemen Sekretariat</option>
+                            <option value="Departemen Keuangan, Sarana, dan Prasarana">Departemen Keuangan, Sarana, dan
+                                Prasarana</option>
+                            <option value="Departemen Informasi & Komunikasi">Departemen Informasi & Komunikasi</option>
+                            <option value="Departemen Pengabdian Masyarakat">Departemen Pengabdian Masyarakat</option>
+                            <option value="Departemen Keilmuan & Pengembangan">Departemen Keilmuan & Pengembangan
+                            </option>
+                            <option value="Departemen Sosial, Politik, dan Hukum">Departemen Sosial, Politik, dan Hukum
+                            </option>
+                            <option value="Departemen Pengembangan Sumber Daya Organisasi">Departemen Pengembangan
+                                Sumber Daya Organisasi</option>
+                            <option value="Departemen Minat & Bakat">Departemen Minat & Bakat</option>
+                            <option value="Departemen Permodalan">Departemen Permodalan</option>
+                            <option value="Departemen Hubungan Luar Universitas">Departemen Hubungan Luar Universitas
+                            </option>
+                        </select>
+                        <label for="alasan2">Alasan Memilih Departemen Tersebut:</label>
+                        <textarea class="form-control" name="alasan2" id="alasan2" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="nilai">Transkrip Nilai:</label>
+                        <input class="form-control" type="file" name="nilai" id="nilai" accept=".pdf">
+                        <small id="fileHelp" class="form-text text-muted">Kirim dalam format pdf</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="cv">Curriculum Vitae:</label>
+                        <input class="form-control" type="file" name="cv" id="cv" accept=".pdf">
+                        <small id="fileHelp" class="form-text text-muted">Kirim dalam format pdf</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="porto">Portofolio (opsional):</label>
+                        <input class="form-control" type="file" name="porto" id="porto" accept=".pdf">
+                        <small id="fileHelp" class="form-text text-muted">Kirim dalam format pdf</small>
+                    </div>
+                    <div class="button">
+                        <input type="submit" class="btn btn-primary" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore-compat.js"></script>
+
+    <script>
+        // Your Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyBb9QubGpUyNPnWzpvGnBaIO5C8SI8MxcU",
+            authDomain: "bem-maranatha.firebaseapp.com",
+            projectId: "bem-maranatha",
+            storageBucket: "bem-maranatha.appspot.com",
+            messagingSenderId: "766404091849",
+            appId: "1:766404091849:web:560fc444858492d7ef9218"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+
+        const db = firebase.firestore();
+
+        function submitForm(event) {
+            event.preventDefault();
+
+            const formData = {
+                name: document.getElementById('name').value,
+                nrp: document.getElementById('nrp').value,
+                email: document.getElementById('email').value,
+                telp: document.getElementById('telp').value,
+                fakultas: document.getElementById('fakultas').value,
+                department_1: document.getElementById('dept1').value,
+                alasan_department_1: document.getElementById('alasan1').value,
+                department_2: document.getElementById('dept2').value,
+                alasan_department_2: document.getElementById('alasan2').value,
+            };
+
+            db.collection('pendaftar').add(formData)
+                .then((docRef) => {
+                    console.log('Document written with ID: ', docRef.id);
+                })
+                .catch((error) => {
+                    console.error('Error adding document: ', error);
+                });
+        }
+
+        document.querySelector('form').addEventListener('submit', submitForm);
+    </script>
+
+
+</body>
+
+</html>
