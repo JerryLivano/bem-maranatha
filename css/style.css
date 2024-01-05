@@ -278,4 +278,13 @@ h3.text hr {
   padding: 50px;
 }
 
+.pimpinanKabinet {
+  background-color: #0a417c;
+}
+
+.kosong {
+  height: 30px;
+  background: white;
+}
+
 /* page struktur End */
