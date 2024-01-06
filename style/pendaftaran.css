@@ -1,6 +1,11 @@
+body {
+  background-color: #2B6EB5;
+}
+
 .card {
   width: 50%;
   margin: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 @media (max-width: 768px) {
